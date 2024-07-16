@@ -1,0 +1,49 @@
+.card-container {
+    display: flex;
+    flex-wrap: wrap; /* Allow cards to wrap to the next line */
+    gap: 20px; /* Adjust spacing between cards */
+  }
+  
+  .card {
+    flex: 1 1 300px; /* Flex properties to maintain uniform size */
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  .card-image {
+    width: 50%;
+    height: 20px; /* Set a fixed height for uniformity */
+    object-fit: cover; /* Maintain aspect ratio and cover entire area */
+    display: block;
+    border-bottom: 1px solid #ccc; /* Optional: Divider line */
+  }
+  
+  .card-content {
+    padding: 20px;
+  }
+  
+  .card-content h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .card-content p {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.5;
+  }
+  
+  .read-more {
+    display: inline-block;
+    margin-top: 10px;
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .read-more:hover {
+    text-decoration: underline;
+  }
+  
